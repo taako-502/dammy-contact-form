@@ -33,7 +33,7 @@ export default function save( { attributes } ) {
         <label for='dcf__textarea'>本文</label>
         <textarea id='dcf__textarea' className='dcf__textarea'></textarea>
       </div>
-      <div className='dcf__row'>
+      <div className='dcf__row txt-algn--center'>
         <input type='button' className='dcf__button' value='送信'></input>
       </div>
     </div>
