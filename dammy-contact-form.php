@@ -1,16 +1,17 @@
 <?php
 /**
  * Plugin Name:       Dammy Contact Form
- * Description:       A Gutenberg block to show your pride! This block enables you to type text and style it with the color font Gilbert from Type with Pride.
- * Version:           0.1.0
+ * Description:       デモサイトなどで使用できるダミーのContact Form
+ * Version:           20220507
  * Requires at least: 5.8
- * Requires PHP:      7.0
- * Author:            The WordPress Contributors
+ * Requires PHP:      7.3
+ * Author:            Takao
+ * Author URI:        https://github.com/taako-502
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       dammy-contact-form
  *
- * @package           create-block
+ * @package           dammy-contact-form
  */
 
 /**
