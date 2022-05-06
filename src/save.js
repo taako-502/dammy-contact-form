@@ -20,7 +20,7 @@ import { useBlockProps } from '@wordpress/block-editor';
 export default function save( { attributes } ) {
 	const blockProps = useBlockProps.save();
 	return (
-    <div { ...blockProps } className='dcf'>
+    <div { ...blockProps } id='dcf' className='dcf'>
       <div className='dcf__row'>
         <label for='dcf__text--name'>名前</label>
         <input type='text' id='dcf__text--name' className='dcf__text--name'></input>

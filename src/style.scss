@@ -1,7 +1,18 @@
-.dcf {
+#dcf {
 	label {
 		display: block;
 		margin-bottom: 0;
+	}
+
+	input[type='text'],
+	textarea {
+		border: 1px solid black;
+		padding: 0.2em;
+
+		&:focus-visible {
+    	outline-offset: 0px;
+			outline: -webkit-focus-ring-color auto 1px;
+		}
 	}
 
 	input[type='text']{
@@ -12,12 +23,14 @@
 		height: 220px;
 	}
 
-	&__row {
-		margin: 20px 0;
-	}
+	.dcf {
+		&__row {
+			margin: 20px 0;
+		}
 
-	&__button {
-		max-width: 200px;
-		max-height: 40px;
+		&__button {
+			max-width: 200px;
+			max-height: 40px;
+		}
 	}
 }
