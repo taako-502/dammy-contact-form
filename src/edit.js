@@ -28,10 +28,8 @@ import { useBlockProps } from '@wordpress/block-editor';
 export default function Edit( { attributes, setAttributes } ) {
 	const blockProps = useBlockProps();
 	return (
-		<TextControl
-			{ ...blockProps }
-			value={ attributes.message }
-			onChange={ ( val ) => setAttributes( { message: val } ) }
-		/>
+		<div { ...blockProps } className='dcf-editor__text--name'>
+      <p>ここにダミーのコンタクトフォームを表示します</p>
+    </div>
 	);
 }
