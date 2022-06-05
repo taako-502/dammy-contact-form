@@ -5,6 +5,14 @@
 		margin-bottom: 0;
 	}
 
+	input[type="text"] {
+		width: 100%;
+	}
+
+	textarea {
+		height: 220px;
+	}
+
 	input[type="text"],
 	textarea {
 		border: 1px solid #000;
@@ -18,14 +26,6 @@
 			outline-offset: 0;
 			outline: -webkit-focus-ring-color auto 1px;
 		}
-	}
-
-	input[type="text"] {
-		width: 100%;
-	}
-
-	textarea {
-		height: 220px;
 	}
 
 	.dcf {
