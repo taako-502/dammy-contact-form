@@ -3,7 +3,11 @@ import { useBlockProps } from '@wordpress/block-editor';
 export default function save() {
 	const blockProps = useBlockProps.save();
 	return (
-		<div { ...blockProps } id="dcf" className="dcf">
+		<form
+			{ ...blockProps }
+			id="dcf"
+			className="dcf"
+		>
 			<div className="dcf__row">
 				<label htmlFor="dcf__text--name">名前</label>
 				<input
@@ -32,8 +36,9 @@ export default function save() {
 					type="button"
 					className="dcf__button"
 					value="送信"
+					onclick="console.log('送信完了');"
 				></input>
 			</div>
-		</div>
+		</form>
 	);
 }
