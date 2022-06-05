@@ -1,12 +1,13 @@
 #dcf {
+
 	label {
 		display: block;
 		margin-bottom: 0;
 	}
 
-	input[type='text'],
+	input[type="text"],
 	textarea {
-		border: 1px solid black;
+		border: 1px solid #000;
 		box-sizing: border-box;
 		padding: 0.4em 0.6em;
 		font-size: 0.9rem;
@@ -14,12 +15,12 @@
 		border-radius: 5px;
 
 		&:focus-visible {
-    	outline-offset: 0px;
+			outline-offset: 0;
 			outline: -webkit-focus-ring-color auto 1px;
 		}
 	}
 
-	input[type='text']{
+	input[type="text"] {
 		width: 100%;
 	}
 
@@ -28,6 +29,7 @@
 	}
 
 	.dcf {
+
 		&__row {
 			margin: 20px 0;
 		}
