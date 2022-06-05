@@ -26,12 +26,12 @@ import { useBlockProps } from '@wordpress/block-editor';
  * @return {WPElement} Element to render.
  */
 export default function Edit( { attributes, setAttributes } ) {
-	const blockProps = useBlockProps({
-    className: 'dcf-editor__text--name',
-  });
+	const blockProps = useBlockProps( {
+		className: 'dcf-editor__text--name',
+	} );
 	return (
 		<div { ...blockProps }>
-      <p>ここにダミーのコンタクトフォームを表示します</p>
-    </div>
+			<p>ここにダミーのコンタクトフォームを表示します</p>
+		</div>
 	);
 }
