@@ -28,8 +28,19 @@
 		}
 	}
 
-	.dcf {
+	#dcf-message {
+		display: none;
+		background: #006c00;
+		color: #fff;
+		padding: 0.2em 0.8em;
+		box-sizing: border-box;
 
+		&.display-block {
+			display: block;
+		}
+	}
+
+	.dcf {
 		&__row {
 			margin: 20px 0;
 		}

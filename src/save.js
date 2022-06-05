@@ -36,9 +36,13 @@ export default function save() {
 					type="button"
 					className="dcf__button"
 					value="送信"
-					onclick="console.log('送信完了');"
+					onclick="
+						document.getElementById('dcf-message').classList.add('display-block');
+						document.getElementById('dcf-message').textContent='送信完了しました';
+					"
 				></input>
 			</div>
+			<div id="dcf-message"></div>
 		</form>
 	);
 }
